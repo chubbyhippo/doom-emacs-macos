@@ -13,5 +13,5 @@ git clone --depth 1 -b master git://git.sv.gnu.org/emacs.git
 make bootstrap -jN (N = number of cores you have in your cpu)
 ```
 ```shell
-make install.sh
+make install
 ```
