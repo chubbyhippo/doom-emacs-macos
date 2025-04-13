@@ -18,3 +18,6 @@ make -j$(sysctl -n hw.ncpu)
 ```shell
 make install
 ```
+```shell
+mv nextstep/Emacs.app ~/Applications/Emacs.app
+```
