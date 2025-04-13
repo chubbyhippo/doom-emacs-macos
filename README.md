@@ -8,7 +8,7 @@ git clone --branch emacs-30.1 --depth 1 git://git.sv.gnu.org/emacs.git
 ```
 ```shell
 ./configure --with-native-compilation \
-            --with-xwidgets \
+            --with-xwidgets
 ```
 ```shell
 make -j$(sysctl -n hw.ncpu)
