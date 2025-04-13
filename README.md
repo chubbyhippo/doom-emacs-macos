@@ -10,7 +10,7 @@ git clone --branch emacs-30.1 --depth 1 git://git.sv.gnu.org/emacs.git
 ./configure --with-native-compilation
 ```
 ```shell
-make -jN (N = number of cores you have in your cpu)
+make -j$(sysctl -n hw.ncpu)
 ```
 ```shell
 make install
