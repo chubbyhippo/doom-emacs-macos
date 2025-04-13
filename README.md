@@ -1,7 +1,7 @@
 # doom-emacs-macos
 ## clone 
 ```shell
-git clone --depth 1 -b master git://git.sv.gnu.org/emacs.git
+git clone --branch emacs-30.1 --depth 1 git://git.sv.gnu.org/emacs.git
 ```
 ```shell
 ./autogen.sh
