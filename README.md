@@ -17,5 +17,5 @@ make -j$(sysctl -n hw.ncpu)
 make install
 ```
 ```shell
-rm -rf ~/Application/Emacs.app && mv nextstep/Emacs.app ~/Applications/
+rm -rf ~/Application/Emacs.app && mv nextstep/Emacs.app ~/Applications/Emacs.app
 ```
