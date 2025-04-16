@@ -22,3 +22,7 @@ rm -rf ~/Application/Emacs.app && mv nextstep/Emacs.app ~/Applications/Emacs.app
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 ~/.config/emacs/bin/doom install
 ```
+``` shell
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+```
